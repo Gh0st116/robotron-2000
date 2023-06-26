@@ -174,7 +174,6 @@ main {
 .estatistica-valor {
     flex-basis: 60%;
     position: relative;
-    margin: 10px 0 0;
     order: 2;
     margin: -10px 0 0;
 }
