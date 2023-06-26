@@ -17,7 +17,7 @@ body {
     font-weight: 300;
 }
 
-body, input {
+body, input, button {
     font-family: 'Teko', sans-serif;
 }
 
@@ -39,6 +39,20 @@ p {
     margin: 0;
     flex-basis: 40%;
     position: relative;
+}
+
+.alterar {
+    margin: 2px;
+    width: 200px;
+    font-size: 1.3em;
+    z-index: 2;
+}
+
+.botoes {
+   position: absolute;
+   top: -8%;
+   right: auto;
+   display: flex;
 }
 
 .robo {
@@ -142,16 +156,19 @@ p {
 .producao {
     margin-top: 1em;
     font-size: 2em;
+    float: right;
+}
+
+.producao, .alterar {
     text-transform: uppercase;
     padding: 0.2em 1em;
-    float: right;
     border: 3px solid var(--main-branco);
     background: var(--main-branco);
     clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
     cursor: pointer;
 }
 
-.producao:hover {
+.producao:hover, .alterar:hover {
     background: var(--main-preto);
     color: var(--main-branco)
 }
