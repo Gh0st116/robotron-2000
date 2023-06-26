@@ -29,6 +29,10 @@ main {
     gap: 1vw;
 }
 
+p {
+    cursor: default;
+}
+
 .robotron {
     background: url(../img/estrutura.png) no-repeat;
     background-position: center center;
@@ -125,6 +129,10 @@ main {
     text-align: center;
     border: 3px solid var(--main-cinza);
     cursor: pointer;
+}
+
+.controle-ajuste:hover {
+    background-color: gray;
 }
 
 .linha {
